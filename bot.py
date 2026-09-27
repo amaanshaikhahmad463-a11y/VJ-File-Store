@@ -14,9 +14,9 @@ from pymongo import MongoClient
 # --- CONFIGURATION (Environment Variables) ---
 API_ID = int(os.environ.get("API_ID", "38253829"))
 API_HASH = os.environ.get("API_HASH", "c52cb1c9daa0e95cc3a9fcbc21307621")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8835749290:AAESf-l_JrRPN8jcAl6_-KsSxIL6hGgOM24")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "8539758095"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://mohahmadabdulshaikh_db_user:0Kdq0KQNbg0ogT9k@cluster0.igqvd9d.mongodb.net")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv:")
 STORAGE_CHANNEL = int(os.environ.get("STORAGE_CHANNEL", "-1003916120794"))
 
 # Start Image Link
